@@ -3,7 +3,7 @@
 void sum_prod_avg(int a, int b, int *sum, int *prod, int *avg);
 int main(){
     int a=3,b=5;
-int sum, prod, avg; // pass empty variable and fill with the values by fun operation using passing reference.
+int sum=0, prod=0, avg=0; // pass empty variable and fill with the values by fun operation using passing reference.
 sum_prod_avg(a,b,&sum, &prod, &avg); // after calling the sum, prod, avg , will be filled with results.
 printf("sum is :%d\n",sum);
 printf("sum is :%d\n",prod);
